@@ -12,6 +12,7 @@ namespace Examen_PX.Classes
         public double AHORRO(Client client)
         {
             double ahorro = client.cantidad_donacion * 0.05;
+         //   ahorro = client.cantidad_donacion - ahorro;
             return ahorro;
         }
     }

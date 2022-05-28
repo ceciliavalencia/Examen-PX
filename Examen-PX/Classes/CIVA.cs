@@ -9,9 +9,10 @@ namespace Examen_PX.Classes
 {
     public class CIVA : IIVA
     {
-        double IIVA.IVA(Client client)
+        public double IVA(Client client)
         {
             double iva = client.cantidad_donacion * 0.12;
+             //iva = client.cantidad_donacion - iva;
             return iva;
 
             //throw new NotImplementedException();

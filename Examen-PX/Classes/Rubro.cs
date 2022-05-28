@@ -10,7 +10,7 @@ namespace Examen_PX.Classes
     {
         public int idRubro { get; set; }
         public string nombre { get; set; }
-        public int porcentaje { get; set; }
+        public double porcentaje { get; set; }
        
     }
 }

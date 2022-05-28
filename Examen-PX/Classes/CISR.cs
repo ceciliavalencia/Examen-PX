@@ -12,6 +12,7 @@ namespace Examen_PX.Classes
         public double ISR(Client client)
         {
             double ISR = client.cantidad_donacion * 0.05;
+          // ISR = client.cantidad_donacion -ISR;
             return ISR;
         }
     }
